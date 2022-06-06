@@ -12,9 +12,9 @@
 
 <div>
     <?php
-        $ini=$_GET["ini"]?$_GET["ini"]:"";
-        $fim=$_GET["fim"]?$_GET["fim"]:"";
-        $incr=$_GET["incr"]?$_GET["incr"]:"";
+        $ini=$_GET["ini"];
+        $fim=$_GET["fim"];
+        $incr=$_GET["incr"];
         if ($ini<$fim){
             while($ini<=$fim){
                 echo "$ini ";
